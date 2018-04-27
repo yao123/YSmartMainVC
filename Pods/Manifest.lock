@@ -1,0 +1,16 @@
+PODS:
+  - YMediator (0.0.2)
+
+DEPENDENCIES:
+  - YMediator (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - YMediator
+
+SPEC CHECKSUMS:
+  YMediator: a7cb87f3ac232dddc267310a49ba551fb7cd88fb
+
+PODFILE CHECKSUM: 069d3adf8b46ec31553ec7d61c3546374f602624
+
+COCOAPODS: 1.5.0

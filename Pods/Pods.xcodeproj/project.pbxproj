@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35F6275581979F4C6E6CD42F46AB84DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8E48BCCCDB15884BA1CD78A190043073 /* YMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B6C6768E6F643F4C1D9EC5E3B6274B /* YMediator-dummy.m */; };
+		AE857EF9D27D54FC5CA8D5911FD274A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5E2710036ABB2D14A31C60E2DD46522 /* YMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7C0F427551EB546A7B4B982782E785 /* YMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEB119F644B60277B6B7D7ADE5584C77 /* Pods-YSmartMainVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D21AE37DD3DCCDBEDDC94B5A8214C9 /* Pods-YSmartMainVC-dummy.m */; };
+		FB39326FF16DDCFA76F79B2609CA96E6 /* YMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B452A36C1BE6F5F34EA892B8EF854 /* YMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B94D7C1730C8FE0EB9A94DC9AC08F652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5967548394715DF62174C34E644F00E6;
+			remoteInfo = YMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B786A238DDECE54041AB45E41CD48D /* libYMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYMediator.a; path = libYMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B6C6768E6F643F4C1D9EC5E3B6274B /* YMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YMediator-dummy.m"; sourceTree = "<group>"; };
+		0ADE458DAF36AD53BAFB6EBD24E4408A /* Pods-YSmartMainVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSmartMainVC.release.xcconfig"; sourceTree = "<group>"; };
+		153564456FCBDB37A9B4FCE28A8B820D /* YMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YMediator.xcconfig; sourceTree = "<group>"; };
+		1B9A34AD3D528698A3EA9F377D4270F0 /* Pods-YSmartMainVC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSmartMainVC-frameworks.sh"; sourceTree = "<group>"; };
+		4F6BBAAFF312159212AF491960ED8CF0 /* Pods-YSmartMainVC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSmartMainVC-acknowledgements.plist"; sourceTree = "<group>"; };
+		51D21AE37DD3DCCDBEDDC94B5A8214C9 /* Pods-YSmartMainVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSmartMainVC-dummy.m"; sourceTree = "<group>"; };
+		53639C6F9E9BF66E31856FA9AB39F06C /* Pods-YSmartMainVC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSmartMainVC-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E0B452A36C1BE6F5F34EA892B8EF854 /* YMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YMediator.m; path = YMediator/YMediator/YMediator.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC7C0F427551EB546A7B4B982782E785 /* YMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YMediator.h; path = YMediator/YMediator/YMediator.h; sourceTree = "<group>"; };
+		C1E03608F07B17B41DF5AA05715150B2 /* Pods-YSmartMainVC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSmartMainVC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C410A0CF67B3080C39D7ABA90EDC38C1 /* YMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMediator-prefix.pch"; sourceTree = "<group>"; };
+		C97325E012F36A7284E5BC54F63FEAF9 /* Pods-YSmartMainVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSmartMainVC.debug.xcconfig"; sourceTree = "<group>"; };
+		D57EBADB24ABBA2DB950C5625F2EE952 /* libPods-YSmartMainVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YSmartMainVC.a"; path = "libPods-YSmartMainVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B0D9BED61A8102E9CA96A9E14E79ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F6275581979F4C6E6CD42F46AB84DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B9BB6F3F364594D9F54EE6C5EA446E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE857EF9D27D54FC5CA8D5911FD274A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10185FDCBEB891937AD768673F3948E5 /* Pods-YSmartMainVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1E03608F07B17B41DF5AA05715150B2 /* Pods-YSmartMainVC-acknowledgements.markdown */,
+				4F6BBAAFF312159212AF491960ED8CF0 /* Pods-YSmartMainVC-acknowledgements.plist */,
+				51D21AE37DD3DCCDBEDDC94B5A8214C9 /* Pods-YSmartMainVC-dummy.m */,
+				1B9A34AD3D528698A3EA9F377D4270F0 /* Pods-YSmartMainVC-frameworks.sh */,
+				53639C6F9E9BF66E31856FA9AB39F06C /* Pods-YSmartMainVC-resources.sh */,
+				C97325E012F36A7284E5BC54F63FEAF9 /* Pods-YSmartMainVC.debug.xcconfig */,
+				0ADE458DAF36AD53BAFB6EBD24E4408A /* Pods-YSmartMainVC.release.xcconfig */,
+			);
+			name = "Pods-YSmartMainVC";
+			path = "Target Support Files/Pods-YSmartMainVC";
+			sourceTree = "<group>";
+		};
+		26CBD02A2F36E08728FE34CEB70BF285 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10185FDCBEB891937AD768673F3948E5 /* Pods-YSmartMainVC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9409243142A3B153A97B9C5232404B46 /* Pods */,
+				855D73570F082E238D3B0A4A40D73893 /* Products */,
+				26CBD02A2F36E08728FE34CEB70BF285 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		855D73570F082E238D3B0A4A40D73893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57EBADB24ABBA2DB950C5625F2EE952 /* libPods-YSmartMainVC.a */,
+				05B786A238DDECE54041AB45E41CD48D /* libYMediator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9409243142A3B153A97B9C5232404B46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B1A9B9A1C35D1CC99124DF9843A3F7 /* YMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBAF0BFFC739C23F0D219CC299FD984A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				153564456FCBDB37A9B4FCE28A8B820D /* YMediator.xcconfig */,
+				06B6C6768E6F643F4C1D9EC5E3B6274B /* YMediator-dummy.m */,
+				C410A0CF67B3080C39D7ABA90EDC38C1 /* YMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YMediator";
+			sourceTree = "<group>";
+		};
+		F0B1A9B9A1C35D1CC99124DF9843A3F7 /* YMediator */ = {
+			isa = PBXGroup;
+			children = (
+				AC7C0F427551EB546A7B4B982782E785 /* YMediator.h */,
+				7E0B452A36C1BE6F5F34EA892B8EF854 /* YMediator.m */,
+				EBAF0BFFC739C23F0D219CC299FD984A /* Support Files */,
+			);
+			name = YMediator;
+			path = YMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30C97781A391B002329748A139E333B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E2710036ABB2D14A31C60E2DD46522 /* YMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16D44879C8A4F6107C8E25DA1BDE1821 /* Pods-YSmartMainVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FB76FE4B42584A4269272078F669AC /* Build configuration list for PBXNativeTarget "Pods-YSmartMainVC" */;
+			buildPhases = (
+				7E8AEAAEF70FFBA3E88BBF29C0D81337 /* Sources */,
+				F4B9BB6F3F364594D9F54EE6C5EA446E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251B39040768D7100767538F798037E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-YSmartMainVC";
+			productName = "Pods-YSmartMainVC";
+			productReference = D57EBADB24ABBA2DB950C5625F2EE952 /* libPods-YSmartMainVC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5967548394715DF62174C34E644F00E6 /* YMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD04C2AB2CC71990488BD93918EA34FD /* Build configuration list for PBXNativeTarget "YMediator" */;
+			buildPhases = (
+				F092A3AB711DDE714E1BF9CC20E15B71 /* Sources */,
+				4B0D9BED61A8102E9CA96A9E14E79ACE /* Frameworks */,
+				30C97781A391B002329748A139E333B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMediator;
+			productName = YMediator;
+			productReference = 05B786A238DDECE54041AB45E41CD48D /* libYMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 855D73570F082E238D3B0A4A40D73893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16D44879C8A4F6107C8E25DA1BDE1821 /* Pods-YSmartMainVC */,
+				5967548394715DF62174C34E644F00E6 /* YMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8AEAAEF70FFBA3E88BBF29C0D81337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB119F644B60277B6B7D7ADE5584C77 /* Pods-YSmartMainVC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F092A3AB711DDE714E1BF9CC20E15B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E48BCCCDB15884BA1CD78A190043073 /* YMediator-dummy.m in Sources */,
+				FB39326FF16DDCFA76F79B2609CA96E6 /* YMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251B39040768D7100767538F798037E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YMediator;
+			target = 5967548394715DF62174C34E644F00E6 /* YMediator */;
+			targetProxy = B94D7C1730C8FE0EB9A94DC9AC08F652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		425B369187D37EB8EFA98B9D96E12FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97325E012F36A7284E5BC54F63FEAF9 /* Pods-YSmartMainVC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CFFED793E8210055ED34D9B5115BD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADE458DAF36AD53BAFB6EBD24E4408A /* Pods-YSmartMainVC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76016D68B79AD0152DFBE390BDB77078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153564456FCBDB37A9B4FCE28A8B820D /* YMediator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YMediator/YMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YMediator;
+				PRODUCT_NAME = YMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7720B06726FB531326203B5CDDF3E72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153564456FCBDB37A9B4FCE28A8B820D /* YMediator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YMediator/YMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YMediator;
+				PRODUCT_NAME = YMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FB76FE4B42584A4269272078F669AC /* Build configuration list for PBXNativeTarget "Pods-YSmartMainVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425B369187D37EB8EFA98B9D96E12FE9 /* Debug */,
+				6CFFED793E8210055ED34D9B5115BD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD04C2AB2CC71990488BD93918EA34FD /* Build configuration list for PBXNativeTarget "YMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76016D68B79AD0152DFBE390BDB77078 /* Debug */,
+				7720B06726FB531326203B5CDDF3E72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
